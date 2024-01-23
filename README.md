@@ -35,3 +35,11 @@ the global site will be generated into `/dist` directory
 
 the `/dist/assets` folder will not be purged if you build again the `ui-home` site
 to cleanup unused files, you need to manually delete the `/dist/assets` folder content before building the `ui-home` site
+
+## Deploy.yml
+
+setup the variables on Github to use the deploy feature
+
+* WEBSITE_UUID : copy UUID from hosting bucket on Apillon dashboard
+* APILLON_API_KEY : your previously created API key
+* APILLON_API_SECRET : your previously created API secret
